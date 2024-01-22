@@ -53,7 +53,7 @@ const enableBoxes = () => {
 }
 
 const showWinner = (winner) => {
-    winMsg.innerHTML = `Congratulations! Winner is ${winner};`
+    winMsg.innerHTML = `Congratulations! Winner is ${winner}`;
     winMsg.classList.remove("hide");
     disableBoxes();
 }
