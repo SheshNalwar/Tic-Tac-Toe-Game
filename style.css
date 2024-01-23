@@ -10,11 +10,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* padding: 5vh 0; */
 }
 
 .container{
-    height: 40vw;
-    width: 40vw;
+    height: 100vh;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,13 +29,13 @@ body {
 }
 
 .game {
-    height: 60vh;
-    width: 60vh;
+    height: 65vh;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 .box{
@@ -93,7 +94,7 @@ body {
 
     .container h1{
         margin-top: 5vh;
-    }
+    }    
 
     .game{
         height: 100%;
